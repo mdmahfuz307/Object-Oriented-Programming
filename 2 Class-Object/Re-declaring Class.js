@@ -22,8 +22,8 @@ class Person{
 
 let PersonObj = new Person();
 console.log(PersonObj.num1);
-
 */
+
 
 
 // Another way to define a class is by using a class expression but aita tew error deba
@@ -36,7 +36,6 @@ let Person = class{
     return this.num1 + this.num2;
   }
 }
-
 
 let Person = class{
   num1 = 10;
